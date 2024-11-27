@@ -1,0 +1,175 @@
+* {
+    font-family: 'Roboto';
+    
+}
+.body {
+    margin: 0px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #1f2937;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.link {
+    margin-left: 15px;
+}
+
+.container .link + .link {
+    margin-left: 10px;
+}
+
+.Hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1f2937;
+}
+
+.left-box {
+    flex: 1; 
+    padding-right: 20px; 
+}
+
+.left-box h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.left-box p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #e5e7eb;
+}
+
+.left-box button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.right-box {
+    flex-shrink: 0;
+}
+
+.right-box img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Info Section */
+.info-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.info-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    text-align: center;
+}
+
+.illustration {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    margin: 0 auto 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustration img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Quote Section */
+.quote-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f0f4fa;
+    font-style: italic;
+}
+
+.quote-section blockquote {
+    font-size: 18px;
+    margin: 0 auto 10px;
+    max-width: 600px;
+}
+
+.quote-section cite {
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* CTA Section */
+.cta-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.cta-content h2 {
+    margin: 0 0 10px;
+    font-size: 20px;
+}
+
+.cta-content p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.cta-button {
+    background-color: #fff;
+    color: #007bff;
+    border: 1px solid #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
